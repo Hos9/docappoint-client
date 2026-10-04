@@ -1,0 +1,80 @@
+[
+  {
+    "id": "d1",
+    "name": "Dr. Ayesha Rahman",
+    "specialty": "Cardiologist",
+    "image": "https://i.ibb.co/3fxrFkN/doctor1.jpg",
+    "experience": "10 years",
+    "rating": 4.9,
+    "availability": ["09:00 AM - 12:00 PM", "04:00 PM - 07:00 PM"],
+    "description": "Highly experienced cardiologist specializing in heart diseases, preventive care, and patient-centered treatment. Dr. Ayesha has treated over 5000 patients and is known for her thorough diagnostic approach.",
+    "hospital": "Labaid Cardiac Hospital",
+    "location": "Dhanmondi, Dhaka",
+    "fee": 800
+  },
+  {
+    "id": "d2",
+    "name": "Dr. Rahim Chowdhury",
+    "specialty": "Neurologist",
+    "image": "https://i.ibb.co/ZhXbMFP/doctor2.jpg",
+    "experience": "15 years",
+    "rating": 4.8,
+    "availability": ["10:00 AM - 01:00 PM", "05:00 PM - 08:00 PM"],
+    "description": "Renowned neurologist with expertise in stroke management, epilepsy, and neurodegenerative disorders. Completed advanced training at Johns Hopkins University.",
+    "hospital": "Square Hospital",
+    "location": "Panthapath, Dhaka",
+    "fee": 1200
+  },
+  {
+    "id": "d3",
+    "name": "Dr. Nadia Islam",
+    "specialty": "Dermatologist",
+    "image": "https://i.ibb.co/VpBg7gZ/doctor3.jpg",
+    "experience": "8 years",
+    "rating": 4.9,
+    "availability": ["08:00 AM - 11:00 AM", "03:00 PM - 06:00 PM"],
+    "description": "Expert dermatologist specializing in skin disorders, cosmetic dermatology, and laser treatments. Passionate about providing personalized skincare solutions.",
+    "hospital": "Apollo Hospitals Dhaka",
+    "location": "Bashundhara, Dhaka",
+    "fee": 700
+  },
+  {
+    "id": "d4",
+    "name": "Dr. Kamal Hossain",
+    "specialty": "Orthopedic Surgeon",
+    "image": "https://i.ibb.co/0KcLBQf/doctor4.jpg",
+    "experience": "20 years",
+    "rating": 4.7,
+    "availability": ["09:00 AM - 12:00 PM", "02:00 PM - 05:00 PM"],
+    "description": "Senior orthopedic surgeon with expertise in joint replacement, sports injuries, and spine surgery. Has performed over 2000 successful surgeries.",
+    "hospital": "United Hospital",
+    "location": "Gulshan, Dhaka",
+    "fee": 1500
+  },
+  {
+    "id": "d5",
+    "name": "Dr. Sabrina Akter",
+    "specialty": "Gynecologist",
+    "image": "https://i.ibb.co/GRg4pS6/doctor5.jpg",
+    "experience": "12 years",
+    "rating": 4.8,
+    "availability": ["10:00 AM - 01:00 PM", "04:00 PM - 07:00 PM"],
+    "description": "Experienced gynecologist specializing in maternal health, high-risk pregnancies, and minimally invasive surgery. Known for compassionate patient care.",
+    "hospital": "Evercare Hospital",
+    "location": "Bashundhara, Dhaka",
+    "fee": 900
+  },
+  {
+    "id": "d6",
+    "name": "Dr. Faisal Ahmed",
+    "specialty": "Pediatrician",
+    "image": "https://i.ibb.co/VxHhvJT/doctor6.jpg",
+    "experience": "9 years",
+    "rating": 4.9,
+    "availability": ["08:00 AM - 11:00 AM", "05:00 PM - 08:00 PM"],
+    "description": "Dedicated pediatrician focused on child health and development, vaccinations, and chronic illness management in children. Loved by parents and kids alike.",
+    "hospital": "Dhaka Shishu Hospital",
+    "location": "Sher-e-Bangla Nagar, Dhaka",
+    "fee": 600
+  }
+]
