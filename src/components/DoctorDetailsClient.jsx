@@ -43,7 +43,7 @@ const BookingModal = ({ doctor, user, onClose }) => {
         status: "pending",
       };
 
-      const res = await fetch(`${process.env.SERVER}/appointments`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER}/appointments`, {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -241,6 +241,7 @@ const DoctorDetailsClient = ({ doctor }) => {
                   src={doctor.image}
                   alt={doctor.name}
                   fill
+                  sizes="(max-width: 768px) 100vw, 288px"
                   className="object-cover"
                   onError={(e) => {
                     e.target.style.display = "none";

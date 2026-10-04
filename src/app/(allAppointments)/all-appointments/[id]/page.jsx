@@ -11,7 +11,8 @@ async function getDoctor(id) {
 }
 
 export async function generateMetadata({ params }) {
-  const doc = await getDoctor(params.id);
+  const { id } = await params;
+  const doc = await getDoctor(id);
   return {
     title: doc ? `DocAppoint — ${doc.name}` : 'Doctor Not Found',
     description: doc?.description,
@@ -19,7 +20,8 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function DoctorDetailsPage({ params }) {
-  const doctor = await getDoctor(params.id);
+  const { id } = await params;
+  const doctor = await getDoctor(id);
   if (!doctor) notFound();
   return <DoctorDetailsClient doctor={doctor} />;
 }

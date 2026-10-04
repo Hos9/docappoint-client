@@ -34,7 +34,7 @@ const UpdateModal = ({ booking, onClose, onUpdated }) => {
     try {
       const { data: tokenData } = await authClient.token();
       const res = await fetch(
-        `${process.env.SERVER}/appointments/${booking._id}`,
+        `${process.env.NEXT_PUBLIC_SERVER}/appointments/${booking._id}`,
         {
           method: "PATCH",
           headers: {
@@ -181,7 +181,7 @@ const MyBookingsClient = () => {
     try {
       const { data: tokenData } = await authClient.token();
       const res = await fetch(
-        `${process.env.SERVER}/appointments?email=${user.email}`,
+        `${process.env.NEXT_PUBLIC_SERVER}/appointments?email=${user.email}`,
         {
           headers: { authorization: `Bearer ${tokenData?.token}` },
         },
@@ -198,7 +198,7 @@ const MyBookingsClient = () => {
   const handleDelete = async (id) => {
     try {
       const { data: tokenData } = await authClient.token();
-      const res = await fetch(`${process.env.SERVER}/appointments/${id}`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER}/appointments/${id}`, {
         method: "DELETE",
         headers: { authorization: `Bearer ${tokenData?.token}` },
       });
